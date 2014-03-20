@@ -3,16 +3,18 @@
   "description": "FogBugz API",
   "version": "0.0.2",
   "author": "Chad Scira <chadvscira@gmail.com>",
-  "keywords": ["fogbugz"],
+  "keywords": [
+    "fogbugz"
+  ],
   "dependencies": {
-	"xml2js": ">=0.1.6",
-	"restler": ">=0.2.1"
+    "xml2js": "^0.4.1",
+    "restler": "^3.2.0"
   },
-  "main" : "lib/fogbugz.js",
-  "directories" : {
-	"lib" : "./lib"
+  "main": "lib/fogbugz.js",
+  "directories": {
+    "lib": "./lib"
   },
   "engines": {
-	"node": ">= 0.4.2"
+    "node": ">= 0.4.2"
   }
 }
